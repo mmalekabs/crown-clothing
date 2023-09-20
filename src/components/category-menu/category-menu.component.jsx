@@ -1,9 +1,9 @@
 import CategoryItem from "../category-item/category-item.component";
 import './category-menu.styles.css';
 
-const CategoryMenu = ({categories}) => {
+const Directory = ({categories}) => {
     return (
-        <div className='category-menu-container'>
+        <div className='directory-container'>
             {categories.map((category) => (
                 <CategoryItem key={category.id} category={category}/>
             ))}
@@ -11,4 +11,4 @@ const CategoryMenu = ({categories}) => {
     );
 }
 
-export default CategoryMenu
+export default Directory
