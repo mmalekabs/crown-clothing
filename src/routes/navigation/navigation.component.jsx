@@ -3,6 +3,7 @@ import {Link, Outlet} from "react-router-dom";
 import {ReactComponent as PenguinLogo} from "../../assets/penguin.svg";
 
 import './navigation.styles.scss'
+
 const Navigation = () => {
     return (
         <Fragment>
